@@ -1,15 +1,19 @@
 {
-    "name": "pokeFormat-CLI",
-    "version": "1.0.0",
-    "description": "",
-    "main": "bin/pokeFormat.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Rex Ayers and Peter Vayda",
-    "license": "MIT",
-    "bin": {
-      "pokeFormat": "./bin/pokeFormat.js"
-    }
-   }
+  "name": "pokeFormat-CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/pokeFormat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rex Ayers and Peter Vayda",
+  "license": "MIT",
+  "bin": {
+    "pokeFormat": "./bin/pokeFormat.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
