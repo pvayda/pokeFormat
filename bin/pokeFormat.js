@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 const fs = require('fs');
 
 //readFile
-var filename = 'input.txt'
+var filename = './bin/input.txt'
 var pokemonStr = fs.readFileSync(filename, 'utf8', function(err, data){
     if (err) {
         return console.error(err);

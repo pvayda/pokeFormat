@@ -11,6 +11,5 @@
     "license": "MIT",
     "bin": {
       "pokeFormat": "./bin/pokeFormat.js"
-      
     }
    }
